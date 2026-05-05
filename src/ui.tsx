@@ -1,4 +1,4 @@
-import React, { useEffect, useReducer, useState, useSyncExternalStore } from 'react'
+import { useEffect, useReducer, useState, useSyncExternalStore } from 'react'
 import { Box, Text, useStdout } from 'ink'
 import Spinner from 'ink-spinner'
 import type { Store, AgentState, Stage } from './store.ts'

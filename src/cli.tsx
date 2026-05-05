@@ -1,4 +1,3 @@
-import React from 'react'
 import { render } from 'ink'
 import { spawnSync } from 'node:child_process'
 import { App } from './ui.tsx'

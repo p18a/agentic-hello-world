@@ -4,17 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
     "test:sdk": "tsx scripts/test-sdk.ts",
     "start": "tsx src/cli.tsx"
   },
   "devDependencies": {
+    "@types/node": "^22.0.0",
     "@types/react": "^19.2.14",
     "tsx": "^4.21.0",
-    "typescript": "~6.0.2",
-    "vite": "^8.0.10"
+    "typescript": "~6.0.2"
   },
   "dependencies": {
     "@anthropic-ai/claude-agent-sdk": "^0.2.128",
