@@ -33,11 +33,11 @@ Requires Claude Code installed and authenticated. A full run is ~3 minutes.
 ## Layout
 
 ```
-agent/
+src/
   agents.ts     prompt builders
   cli.tsx       entry point
   runner.ts     single-agent execution + log/thinking capture
-  store.ts     subscribable state
+  store.ts      subscribable state
   ui.tsx        Ink components
   workflow.ts   stage orchestration
 scripts/test-sdk.ts   SDK smoke test (npm run test:sdk)
